@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('https://i.ibb.co.com/ccvCpWmx/gradient.avif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+    position: relative;
+}
+
+form {
+    background: rgba(255,255,255,0.05);
+    padding: 30px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 200px;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid white;
+    background: transparent;
+    color: white;
+    outline: none;
+}
+
+button {
+    padding: 10px 20px;
+    background: #38bdf8;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+a {
+    display: block;
+    margin-top: 20px;
+    color: #38bdf8;
+}
